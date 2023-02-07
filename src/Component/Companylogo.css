@@ -1,0 +1,29 @@
+.companylogoimg{
+    width: 10rem;
+    height: 8rem;
+    margin-left: 5rem;
+    transition: transform 0.5s;
+   
+  
+}
+.companylogoimg:hover{
+    transform: scale(1.08);
+}
+
+.companylogoflex{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(15, 15, 15);
+  
+}
+.companylogo{
+    margin: 4rem;
+   padding: 1rem;
+    box-shadow:  rgb(255, 123, 0) 0px 5px 15px;
+}
+.companyour{
+padding: 2rem;
+color:#ffc400d5 ;
+   
+}
