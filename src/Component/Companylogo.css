@@ -18,12 +18,24 @@
   
 }
 .companylogo{
+  
     margin: 4rem;
    padding: 1rem;
-    box-shadow:  rgb(255, 123, 0) 0px 5px 15px;
+   box-shadow: rgb(248, 180, 33) 0px 2px 8px 0px;
 }
+.Loop {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 .companyour{
 padding: 2rem;
 color:#ffc400d5 ;
    
 }
+.scr{
+    height: 320px;
+    overflow: scroll;
+}
+.scr::-webkit-scrollbar{
+    display: none;
+  }

@@ -30,6 +30,7 @@
  .image-card{
     width: 19rem;
     object-fit: contain;
+    height: 12rem;
     border-bottom-right-radius: 100px 100px;
     /* box-shadow: rgb(255, 251, 251) 0px 5px 15px; */
  

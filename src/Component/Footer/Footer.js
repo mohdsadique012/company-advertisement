@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import "./Footer.css";
-import { SocialIcon } from "react-social-icons";
+// import { SocialIcon } from "react-social-icons";
 <a
   href="https://www.flaticon.com/free-icons/credit-card"
   title="credit card icons"

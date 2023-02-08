@@ -22,7 +22,7 @@ const Banner = () => {
           <button className="banner-button" data-aos="fade-left"  data-aos-duration="3000">More</button>
         </div>
       </div>
-      <div className="banner-image-container">
+      <div className="banner-image-container vert-move">
         <img
           src="https://images.squarespace-cdn.com/content/v1/62e91f051b4d461f16d033a3/d6c4ae50-71e5-42d5-bf13-5b322cc907ed/sole-proprietorship-vs-private-limited-company-image-1.jpg"
           alt="Banner Image"

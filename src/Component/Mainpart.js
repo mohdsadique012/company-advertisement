@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
+import Aos from 'aos';
 import "./Mainpart.css"
 import Carousel from 'react-bootstrap/Carousel';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";
-import Aos from 'aos';
+
 
 
 function Mainpart() {

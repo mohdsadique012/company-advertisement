@@ -46,7 +46,7 @@ body{
     border-radius: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    background-color: rgb(10, 138, 138);
+    background-color: rgba(5, 12, 12, 0.753);
 }
 form{
     padding: 2%;
@@ -94,7 +94,9 @@ form{
     margin: 10px;
     width: 40%;
   }
-  
+  .pdd{
+    padding-top: 2rem;
+  }
   .center-div div {
     padding: 10px;
     font-size: 1.5rem;

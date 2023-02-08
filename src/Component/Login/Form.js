@@ -66,7 +66,7 @@ class Form extends Component {
       <div className="bg-image"></div>
       <Row id="inner-page">
         <Col sm={6}>
-          <div className="center-div">
+          <div className="center-div pdd">
             <div className="col gr-back position-relative">
               <span className="cusBt"></span>
               <h4 style={{ fontWeight: 700 }}>LOGIN/REGISTER</h4>

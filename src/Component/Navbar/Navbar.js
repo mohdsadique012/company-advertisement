@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="rgba(5, 12, 12, 0.705)" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">The Digital India </Navbar.Brand>
+        <Navbar.Brand href="#home" bg="rgba(5, 12, 12, 0.705)" variant="dark">The Digital India </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -16,9 +16,11 @@ function CollapsibleExample() {
             
           </Nav>
           <Nav>
-          <Nav.Link >Home</Nav.Link>
+          <Nav.Link href="#deetss">Home</Nav.Link>
             <Nav.Link href="#deets">About us</Nav.Link>
-            
+            <Nav.Link href="#deetsss">Premimum-Member</Nav.Link>
+            <Nav.Link href="#deetssss">contact us</Nav.Link>
+          
             <Nav.Link eventKey={2} href="#memes">
             <Link to="/login">
               Login
